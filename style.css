@@ -18,8 +18,7 @@ header {
     color: #fff;
     text-align: center;
     padding: 40px 20px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
+    border-radius: 12px;
 }
 nav {
     background: #444;
