@@ -14,7 +14,7 @@ header, nav, main, footer {
     padding: 20px;
 }
 header {
-    background: #ff6a00;
+    background-color: rgba(255, 106, 0, 0.85);
     color: #fff;
     text-align: center;
     padding: 40px 20px;
