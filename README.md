@@ -25,9 +25,8 @@ This project showcases my skills, education, and experience using clean web tech
 
 ##  Repository Structure
 /neill-cv
-│
-├── index.html # Main HTML page
-├── style.css # Custom CSS for layout and design
-├── /assets # For images, fonts, etc.
-└── README.md
+─ index.html # Main HTML page
+─ style.css # Custom CSS for layout and design
+─ /assets # For images, fonts, etc.
+─ README.md
 
