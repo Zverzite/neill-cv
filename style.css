@@ -6,7 +6,7 @@ body {
     padding: 0;
     background: url('background-cv.jpg') no-repeat center center fixed;
     background-size: cover;
-    color: #fff;
+    color: #111;
 }
 header, nav, main, footer {
     max-width: 960px;
@@ -21,7 +21,6 @@ header {
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
 }
-
 nav {
     background: #444;
     text-align: center;
@@ -40,6 +39,7 @@ main {
     border-radius: 12px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+
 section {
     margin-bottom: 30px;
 }
