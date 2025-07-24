@@ -22,6 +22,7 @@ nav {
     background: #444;
     text-align: center;
     padding: 10px 0;
+    border-radius: 12px 12px 0 0;
 }
 nav a {
     color: #fff;
@@ -31,7 +32,10 @@ nav a {
 main {
     background: #fff;
     padding: 20px;
+    border-radius: 12px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 section {
     margin-bottom: 30px;
 }
@@ -40,6 +44,7 @@ footer {
     font-size: 0.9em;
     color: #777;
     margin-top: 40px;
+    border-radius: 0 0 12px 12px;
 }
 .content-section {
     display: none;
