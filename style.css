@@ -40,3 +40,7 @@ footer {
     color: #777;
     margin-top: 40px;
 }
+.content-section {
+    display: none;
+}
+
