@@ -14,87 +14,71 @@
     </header>
 
     <nav>
-        <a href="#profile">Profile</a>
-        <a href="#contact">Contact</a>
-        <a href="#education">Education</a>
-        <a href="#experience">Experience</a>
-        <a href="#skills">Skills</a>
-        <a href="#languages">Languages</a>
-        <a href="#license">License</a>
-        <a href="#hobbies">Hobbies</a>
+        <a href="#" onclick="showSection('profile')">Profile</a>
+        <a href="#" onclick="showSection('contact')">Contact</a>
+        <a href="#" onclick="showSection('education')">Education</a>
+        <a href="#" onclick="showSection('experience')">Experience</a>
+        <a href="#" onclick="showSection('skills')">Skills</a>
+        <a href="#" onclick="showSection('languages')">Languages</a>
+        <a href="#" onclick="showSection('license')">License</a>
+        <a href="#" onclick="showSection('hobbies')">Hobbies</a>
     </nav>
 
     <main>
-        <section id="profile">
+        <section id="profile" class="content-section">
             <h2>Profile</h2>
-            <p>I have a dynamic and results-oriented mindset with a strong foundation in problem solving, communication, and organization skills. I articulate ideas clearly and listen actively. I excel in identifying issues and developing creative solutions, demonstrating resilience and adaptability.</p>
-            <p>Proficient in Microsoft Office and programming languages such as C++, Java, SQL, and C#, I provide technical support and continuously learn and adapt. I value discretion, independence, and collaboration in professional settings.</p>
+            <p>...</p>
         </section>
 
-        <section id="contact">
+        <section id="contact" class="content-section">
             <h2>Contact</h2>
-            <p><strong>Phone:</strong> 061 077 2002</p>
-            <p><strong>Email:</strong> <a href="mailto:4neillg@gmail.com">4neillg@gmail.com</a></p>
+            <p>...</p>
         </section>
 
-        <section id="education">
+        <section id="education" class="content-section">
             <h2>Education</h2>
-            <ul>
-                <li><strong>Maritzburg College</strong> – NSC Matric (2016–2020)</li>
-                <li><strong>North-West University</strong> – BSc in IT (2022–Present)</li>
-            </ul>
+            <ul><li>...</li></ul>
         </section>
 
-        <section id="experience">
+        <section id="experience" class="content-section">
             <h2>Work Experience</h2>
-            <h3>Riverwood High School – School Assistant (Jan 2021 – Aug 2021)</h3>
-            <ul>
-                <li>Conducted COVID health screenings and class supervision</li>
-                <li>PE instruction and maintenance support</li>
-                <li>Administrative and event assistance</li>
-            </ul>
-            <h3>Hulamin – Vac Student (Dec 2024 – Jan 2025)</h3>
-            <ul>
-                <li>Developed PLC programs using Bachmann M_PLC and Milltech tools</li>
-                <li>Managed version control and tested for error-free deployment</li>
-            </ul>
+            <ul><li>...</li></ul>
         </section>
 
-        <section id="skills">
+        <section id="skills" class="content-section">
             <h2>Skills</h2>
-            <ul>
-                <li>Communication</li>
-                <li>Problem-Solving</li>
-                <li>Organizational Skills</li>
-                <li>Teamwork and Collaboration</li>
-                <li>Adaptability</li>
-                <li>Goal-Oriented and Independent</li>
-            </ul>
+            <ul><li>...</li></ul>
         </section>
 
-        <section id="languages">
+        <section id="languages" class="content-section">
             <h2>Languages</h2>
-            <p><strong>Afrikaans:</strong> Upper Intermediate (First Language)</p>
-            <p><strong>English:</strong> Upper Intermediate (Second Language)</p>
+            <p>...</p>
         </section>
 
-        <section id="license">
+        <section id="license" class="content-section">
             <h2>Driving License</h2>
-            <p>Category B1</p>
+            <p>...</p>
         </section>
 
-        <section id="hobbies">
+        <section id="hobbies" class="content-section">
             <h2>Hobbies</h2>
-            <ul>
-                <li>Learning about the latest technology</li>
-                <li>Reading and writing stories</li>
-                <li>Gaming</li>
-            </ul>
+            <ul><li>...</li></ul>
         </section>
     </main>
 
     <footer>
         <p>&copy; 2025 Neill Greeff. All rights reserved.</p>
     </footer>
+
+    <script>
+        function showSection(id) {
+            const sections = document.querySelectorAll('.content-section');
+            sections.forEach(section => {
+                section.style.display = (section.id === id) ? 'block' : 'none';
+            });
+        }
+
+
+        window.onload = () => showSection('profile');
+    </script>
 </body>
-</html>
