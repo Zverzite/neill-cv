@@ -58,7 +58,7 @@ footer {
 
 .contact-icons a {
   margin-right: 15px;
-  color: white;
+  color: #333;
   font-size: 24px;
   transition: color 0.3s ease;
 }
